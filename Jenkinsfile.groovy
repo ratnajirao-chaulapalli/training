@@ -3,7 +3,7 @@ node("jenkins")
 stage('prepare-gcp-pipeline')
 {
 sh 'echo "HELLO"'
-sh 'gcloud init'
+//sh 'gcloud init'
 //bat "cmd /c dir"
 }
 }
