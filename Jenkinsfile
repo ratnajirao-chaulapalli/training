@@ -4,6 +4,6 @@ node("Jenkins")
 {
 stage('prepare-gcp-pipeline')
 {
-sh ${NODE_NAME}
+echo "HELLO"
 }
 }
