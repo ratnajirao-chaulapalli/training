@@ -1,4 +1,4 @@
-node("jenkins")
+node("master")
 {
 stage('prepare-gcp-pipeline')
 {
