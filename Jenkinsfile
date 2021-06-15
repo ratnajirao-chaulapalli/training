@@ -4,6 +4,6 @@ node("Jenkins")
 {
 stage('prepare-gcp-pipeline')
 {
-sh(returnStdout: true,script "gcloud init" )
+sh(returnStdout: true,script "${NODE_NAME}" )
 }
 }
