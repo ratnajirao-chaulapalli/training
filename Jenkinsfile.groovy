@@ -1,6 +1,4 @@
-nodes
-{
-  node("jenkins")
+node("jenkins")
 {
 stage('prepare-gcp-pipeline')
 {
@@ -17,4 +15,4 @@ bat "cmd /c dir"
 }
 
 }
-}
+
